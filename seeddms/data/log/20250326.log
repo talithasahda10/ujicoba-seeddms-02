@@ -1,0 +1,35 @@
+Mar 26 08:40:19  [info] -- (10.240.1.166) op.Login.php 
+Mar 26 08:40:19  [info] Authentication service 'db'
+Mar 26 08:40:19  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Mar 26 08:41:29  [info] admin (10.240.1.166) op.AddDocument.php add document 5 in folder 1
+Mar 26 08:41:29  [info] Conversion from application/pdf to image/png with pdf service took 0.36833810806274 sec.
+Mar 26 08:42:01  [info] Conversion from application/pdf to image/png with pdf service took 0.1323139667511 sec.
+Mar 26 08:46:24  [info] admin (10.240.0.199) op.EditFolder.php ?folderid=1
+Mar 26 08:46:53  [info] admin (10.240.0.199) op.EditFolder.php ?folderid=1
+Mar 26 08:47:42  [info] admin (10.240.0.199) op.AddSubFolder.php ?name=UTS&folderid=1
+Mar 26 08:48:28  [info] admin (10.240.0.199) op.AddDocument.php add document 6 in folder 6
+Mar 26 08:48:29  [info] Conversion from application/pdf to image/png with pdf service took 0.12097692489624 sec.
+Mar 26 08:49:22  [info] admin (10.240.0.199) op.AddDocument.php add document 7 in folder 6
+Mar 26 08:49:22  [info] Conversion from application/pdf to image/png with pdf service took 0.12523293495178 sec.
+Mar 26 08:51:20  [info] admin (10.240.0.199) op.AddDocument.php add document 8 in folder 6
+Mar 26 08:51:20  [info] Conversion from application/pdf to image/png with pdf service took 0.14790296554565 sec.
+Mar 26 08:52:08  [info] Conversion from application/pdf to image/png with pdf service took 0.13550114631653 sec.
+Mar 26 09:01:02  [info] admin (10.240.2.99) op.UpdateDocument.php update document 8 with version 2
+Mar 26 09:01:02  [info] Conversion from application/pdf to image/png with pdf service took 0.10923886299133 sec.
+Mar 26 09:03:34  [info] admin (10.240.2.99) op.UsrMgr.php .php&action=adduser&login=intan
+Mar 26 09:04:20  [info] admin (10.240.2.99) op.SubstituteUser.php?userid=9&formtoken=31b83f57c1006a0c65a715a269f86bac ?userid=9
+Mar 26 09:04:34  [info] Conversion from application/pdf to image/png with pdf service took 0.10453987121582 sec.
+Mar 26 09:04:44  [info] intan (10.240.2.99) op.ResetSu.php 
+Mar 26 09:06:39  [info] admin (10.240.2.99) op.DocumentAccess.php?formtoken=6d85ce5982db019368a2bc7dc650a244&documentid=8&action=notinherit&mode=empty 
+Mar 26 09:07:18  [info] admin (10.240.2.99) op.DocumentAccess.php?formtoken=6d85ce5982db019368a2bc7dc650a244&documentid=8&action=addaccess&userid=9&groupid=-1&mode=1 
+Mar 26 09:07:31  [info] admin (10.240.2.99) op.SubstituteUser.php?userid=9&formtoken=31b83f57c1006a0c65a715a269f86bac ?userid=9
+Mar 26 09:11:49  [info] intan (10.240.1.166) op.ResetSu.php 
+Mar 26 09:15:15  [info] Conversion from application/pdf to image/png with pdf service took 0.34172081947327 sec.
+Mar 26 09:16:49  [info] admin (10.240.1.166) op.OverrideContentStatus.php ?documentid=8
+Mar 26 09:19:36  [info] admin (10.240.0.199) op.DocumentAccess.php?mode=3&formtoken=6d85ce5982db019368a2bc7dc650a244&documentid=8&action=editaccess&userid=9 
+Mar 26 09:20:24  [info] admin (10.240.0.199) op.DocumentAccess.php?formtoken=6d85ce5982db019368a2bc7dc650a244&documentid=8&action=addaccess&userid=3&groupid=-1&mode=3 
+Mar 26 09:20:36  [info] admin (10.240.0.199) op.SubstituteUser.php?userid=3&formtoken=31b83f57c1006a0c65a715a269f86bac ?userid=3
+Mar 26 09:21:46  [info] amir (10.240.0.199) op.ResetSu.php 
+Mar 26 09:38:59  [info] -- (10.240.0.199) op.Login.php 
+Mar 26 09:38:59  [info] Authentication service 'db'
+Mar 26 09:38:59  [info] Authentication service 'db': Authentication of user 'admin' successful.

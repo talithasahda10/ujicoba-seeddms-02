@@ -1,0 +1,94 @@
+Mar 12 13:11:35  [info] -- (10.240.2.99) op.Login.php 
+Mar 12 13:11:35  [info] Authentication service 'db'
+Mar 12 13:11:35  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Mar 12 13:12:05  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=addrole&name=Engineer
+Mar 12 13:12:22  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=addrole&name=Document Controller
+Mar 12 13:12:24  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=editrole&roleid=5
+Mar 12 13:12:53  [info] admin (10.240.2.99) op.GroupMgr.php &action=addgroup&name=Divisi Riset
+Mar 12 13:12:56  [info] admin (10.240.2.99) op.GroupMgr.php ?groupid=1&action=editgroup
+Mar 12 13:14:21  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=addrole&name=Manager
+Mar 12 13:14:22  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=editrole&roleid=6
+Mar 12 13:15:07  [info] admin (10.240.2.99) op.UsrMgr.php .php&action=adduser&login=amir
+Mar 12 13:15:54  [info] admin (10.240.2.99) op.UsrMgr.php .php&action=adduser&login=ari
+Mar 12 13:16:47  [info] admin (10.240.2.99) op.UsrMgr.php .php&action=adduser&login=neli
+Mar 12 13:17:32  [info] admin (10.240.2.99) op.AddSubFolder.php ?name=Divisi Riset&folderid=1
+Mar 12 13:17:46  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=fb69e68c929243e0f2e2db4e358145ac&folderid=2&action=notinherit&mode=empty 
+Mar 12 13:18:07  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=fb69e68c929243e0f2e2db4e358145ac&folderid=2&action=addaccess&userid=-1&groupid=1&mode=4 
+Mar 12 13:18:42  [info] admin (10.240.2.99) op.SubstituteUser.php?userid=5&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=5
+Mar 12 13:19:26  [info] neli (10.240.2.99) op.AddSubFolder.php ?name=Draft Laporan Hasil Eksplorasi Uranium di Cepu Jawa Tengah &folderid=2
+Mar 12 13:24:32  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'amir@gmail.com' (3) failed.
+Mar 12 13:24:32  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'ari@gmail.com' (3) failed.
+Mar 12 13:24:32  [info] neli (10.240.2.23) op.AddDocument.php add document 1 in folder 2
+Mar 12 13:24:44  [info] neli (10.240.2.23) op.ResetSu.php 
+Mar 12 13:24:58  [info] admin (10.240.2.23) op.SubstituteUser.php?userid=4&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=4
+Mar 12 13:25:17  [info] ari (10.240.2.23) op.Download.php?documentid=1&version=1 
+Mar 12 13:27:43  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'neli@gmail.com' (6) failed.
+Mar 12 13:27:43  [info] ari (10.240.2.23) op.ReviewDocument.php documentid=1&version=1&reviewType=ind&reviewStatus=1
+Mar 12 13:27:50  [info] ari (10.240.2.23) op.ResetSu.php 
+Mar 12 13:27:58  [info] admin (10.240.2.23) op.SubstituteUser.php?userid=3&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=3
+Mar 12 13:29:55  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'neli@gmail.com' (6) failed.
+Mar 12 13:29:55  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'neli@gmail.com' (2) failed.
+Mar 12 13:29:55  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'amir@gmail.com' (4) failed.
+Mar 12 13:29:55  [info] amir (10.240.2.23) op.ReviewDocument.php documentid=1&version=1&reviewType=ind&reviewStatus=1
+Mar 12 13:30:01  [info] amir (10.240.2.23) op.ResetSu.php 
+Mar 12 13:30:15  [info] admin (10.240.2.23) op.SubstituteUser.php?userid=5&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=5
+Mar 12 13:30:36  [info] neli (10.240.2.23) op.Download.php?documentid=1&version=1 
+Mar 12 13:34:42  [info] neli (10.240.2.99) op.AddFile.php add file 'Final - Laporan Hasil Eksplorasi Uranium di Cepu Jawa Tengah ' to document 1
+Mar 12 13:34:52  [info] neli (10.240.2.99) op.ResetSu.php 
+Mar 12 13:35:02  [info] admin (10.240.2.99) op.SubstituteUser.php?userid=3&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=3
+Mar 12 13:35:17  [info] amir (10.240.2.99) op.Download.php?documentid=1&file=1 
+Mar 12 13:36:27  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'neli@gmail.com' (6) failed.
+Mar 12 13:36:27  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'neli@gmail.com' (2) failed.
+Mar 12 13:36:27  [info] amir (10.240.2.99) op.ApproveDocument.php ?documentid=1&version=1&approvalType=ind&approvalStatus=1
+Mar 12 13:36:34  [info] amir (10.240.2.99) op.ResetSu.php 
+Mar 12 13:36:41  [info] admin (10.240.2.99) op.SubstituteUser.php?userid=5&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=5
+Mar 12 13:38:12  [info] neli (10.240.2.99) op.AddDocument.php add document 2 in folder 2
+Mar 12 13:38:35  [info] neli (10.240.2.99) op.OverrideContentStatus.php ?documentid=1
+Mar 12 13:38:48  [info] neli (10.240.2.99) op.ResetSu.php 
+Mar 12 13:43:22  [info] admin (10.240.0.69) op.RoleMgr.php .php&action=addrole&name=manager
+Mar 12 13:43:24  [info] admin (10.240.0.69) op.RoleMgr.php .php&action=editrole&roleid=7
+Mar 12 13:43:38  [info] admin (10.240.0.69) op.RoleMgr.php .php&action=addrole&name=staff
+Mar 12 13:43:40  [info] admin (10.240.0.69) op.RoleMgr.php .php&action=editrole&roleid=8
+Mar 12 13:43:54  [info] admin (10.240.0.69) op.RoleMgr.php .php&action=addrole&name=Sekretaris
+Mar 12 13:43:55  [info] admin (10.240.0.69) op.RoleMgr.php .php&action=editrole&roleid=9
+Mar 12 13:43:56  [info] admin (10.240.0.69) op.RoleMgr.php .php&action=editrole&roleid=9
+Mar 12 13:44:18  [info] admin (10.240.0.69) op.GroupMgr.php &action=addgroup&name=Divisi Umum
+Mar 12 13:44:22  [info] admin (10.240.0.69) op.GroupMgr.php ?groupid=2&userid=1&action=addmember
+Mar 12 13:49:13  [info] admin (10.240.0.69) op.UsrMgr.php .php&action=adduser&login=rasyid
+Mar 12 13:49:18  [info] admin (10.240.0.69) op.UsrMgr.php .php&action=edituser&userid=6
+Mar 12 13:50:09  [info] admin (10.240.0.69) op.UsrMgr.php .php&action=adduser&login=ridho
+Mar 12 13:50:12  [info] admin (10.240.0.69) op.UsrMgr.php .php&action=edituser&userid=7
+Mar 12 13:51:17  [info] admin (10.240.0.69) op.UsrMgr.php .php&action=adduser&login=chaidir
+Mar 12 13:51:21  [info] admin (10.240.0.69) op.UsrMgr.php .php&action=edituser&userid=8
+Mar 12 13:52:24  [info] admin (10.240.0.69) op.AddSubFolder.php ?name=Divisi Umum&folderid=1
+Mar 12 13:52:39  [info] admin (10.240.0.69) op.FolderAccess.php?formtoken=fb69e68c929243e0f2e2db4e358145ac&folderid=4&action=notinherit&mode=empty 
+Mar 12 13:53:36  [info] admin (10.240.0.69) op.FolderAccess.php?formtoken=fb69e68c929243e0f2e2db4e358145ac&folderid=4&action=addaccess&userid=-1&groupid=2&mode=4 
+Mar 12 13:54:10  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=6&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=6
+Mar 12 13:54:25  [info] rasyid (10.240.0.69) op.ResetSu.php 
+Mar 12 13:56:30  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=8&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=8
+Mar 12 13:57:50  [info] chaidir (10.240.0.69) op.AddSubFolder.php ?name=Surat Tugas Sutopo&folderid=4
+Mar 12 14:02:14  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'rasyid@gmail.com' (3) failed.
+Mar 12 14:02:14  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'ridho@gmail.com' (3) failed.
+Mar 12 14:02:14  [info] chaidir (10.240.4.161) op.AddDocument.php add document 3 in folder 5
+Mar 12 14:02:58  [info] chaidir (10.240.4.161) op.ResetSu.php 
+Mar 12 14:03:05  [info] admin (10.240.4.161) op.SubstituteUser.php?userid=7&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=7
+Mar 12 14:07:11  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'chaidir@gmail.com' (6) failed.
+Mar 12 14:07:11  [info] ridho (10.240.4.161) op.ReviewDocument.php documentid=3&version=1&reviewType=ind&reviewStatus=1
+Mar 12 14:07:21  [info] ridho (10.240.4.161) op.ResetSu.php 
+Mar 12 14:07:29  [info] admin (10.240.4.161) op.SubstituteUser.php?userid=6&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=6
+Mar 12 14:09:02  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'chaidir@gmail.com' (6) failed.
+Mar 12 14:09:02  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'chaidir@gmail.com' (2) failed.
+Mar 12 14:09:02  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'rasyid@gmail.com' (4) failed.
+Mar 12 14:09:02  [info] rasyid (10.240.4.161) op.ReviewDocument.php documentid=3&version=1&reviewType=ind&reviewStatus=1
+Mar 12 14:09:26  [info] rasyid (10.240.4.161) op.ResetSu.php 
+Mar 12 14:09:45  [info] admin (10.240.4.161) op.SubstituteUser.php?userid=8&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=8
+Mar 12 14:12:27  [info] chaidir (10.240.0.69) op.AddFile.php add file 'Final - Surat Tugas Sutopo' to document 3
+Mar 12 14:12:52  [info] chaidir (10.240.0.69) op.ResetSu.php 
+Mar 12 14:13:02  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=6&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=6
+Mar 12 14:14:21  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'chaidir@gmail.com' (6) failed.
+Mar 12 14:14:21  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'chaidir@gmail.com' (2) failed.
+Mar 12 14:14:21  [info] rasyid (10.240.0.69) op.ApproveDocument.php ?documentid=3&version=1&approvalType=ind&approvalStatus=1
+Mar 12 14:15:08  [info] rasyid (10.240.0.69) op.ResetSu.php 
+Mar 12 14:15:18  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=8&formtoken=990fd980cff52ea3a5ef0cc765a0c769 ?userid=8
+Mar 12 14:16:11  [info] chaidir (10.240.0.69) op.AddDocument.php add document 4 in folder 5
+Mar 12 14:17:20  [info] chaidir (10.240.0.69) op.OverrideContentStatus.php ?documentid=3
